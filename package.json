@@ -1,0 +1,28 @@
+{
+  "name": "integrations-portal-api",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Gabriel Riguiti",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "npm run dev:watch",
+    "build": "tsc",
+    "dev:watch": "nodemon"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.7",
+    "express": "5.0.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "3.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
